@@ -12,7 +12,7 @@ const HomePage = () => {
       <div>
         <img src={require("../images/KTR_shield.jpeg").default} alt="" id="ktr-shield"/>  
       </div>
-      <div>
+      <div className="button-container">
         <LoginButton />
         <SignupButton />
       </div>

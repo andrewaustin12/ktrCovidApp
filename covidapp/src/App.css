@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
 html {
   background: url("./images/taylor-simpson-Cpy1BBWp0X4-unsplash.jpg") no-repeat center center fixed;
   background-size: cover;
   backdrop-filter: blur(5px);
+}
+
+* {
+  font-family: 'Red Hat Text', sans-serif;
 }
 
 .App {
@@ -23,12 +29,18 @@ html {
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 
-  padding: 10%;
-  margin: 10%;
+  padding: 2%;
+  margin: 6%;
 }
 
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -41,6 +53,19 @@ html {
 
 .App-link {
   color: #61dafb;
+} */
+
+
+/* BUTTONS*/
+
+.loginbutton {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 5px;
 }
 
-
+.signupbutton {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 5px;
+}
