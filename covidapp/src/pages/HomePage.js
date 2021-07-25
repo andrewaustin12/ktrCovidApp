@@ -1,8 +1,10 @@
 import React from 'react';
+import LoginButton from '../components/buttons/LoginButton';
+import SignupButton from '../components/buttons/SignupButton';
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="main-container">
       <div>
         <h1>Koh Tao Entry</h1> 
         <h1>Information Form</h1>
@@ -11,8 +13,8 @@ const HomePage = () => {
         <img src={require("../images/KTR_shield.jpeg").default} alt="" id="ktr-shield"/>  
       </div>
       <div>
-        <button>Login</button>
-        <button type="submit">Sign Up</button>
+        <LoginButton />
+        <SignupButton />
       </div>
     </div>
   );
